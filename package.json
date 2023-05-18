@@ -1,15 +1,22 @@
 {
-  "name": "rowah_foods",
+  "name": "rowah-foods",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowah/rowah-foods.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/rowah/rowah-foods/issues"
+  },
+  "homepage": "https://github.com/rowah/rowah-foods#readme",
+  "devDependencies": {
     "tailwindcss": "^3.3.2"
   }
 }
