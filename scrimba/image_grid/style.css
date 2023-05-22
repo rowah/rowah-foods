@@ -2,12 +2,15 @@
   max-width: 800px;
   line-height: 0;
   margin: 0 auto;
+  /* make the image container a flex container*/
   display: flex;
+  /* fix items and avoid overflow*/
   flex-wrap: wrap;
   gap: 0.5em;
 }
 
 .pet-item {
+  /* shorthand property of flex-basis and flex-grow sets flex row(grows flex items to take extra space left) and flex basis(sets initial main size of a flex item) respectively*/
   flex: 1 220px;
 }
 
